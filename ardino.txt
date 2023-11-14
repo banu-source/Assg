@@ -1,0 +1,29 @@
+
+
+
+
+int led =A0;
+void setup()
+{
+pinMode(led,OUTPUT);
+}
+void loop()
+{
+int temp=20;
+
+if(temp<30)
+{
+digitalWrite(led,,1);
+delay(250);
+digitalWrite(led,0);
+delay(250);;
+}
+else
+{
+digitalWrite(led,1);
+delay(500);
+digitalWrite(led,0);
+
+delay(500);
+}
+}
